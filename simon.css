@@ -1,0 +1,68 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    color: #000000;
+    background-color: #0F6292;
+    text-align: center;
+}
+
+#level {
+    font-size: 4rem;
+}
+
+
+
+.play-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.color {
+    border-radius: 15%;
+    border-width: 0.5rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    flex: 0 0 auto;
+}
+
+.selected {
+    transform: scale(0.8, 0.8);
+}
+
+.clicked {
+    opacity: 50%;
+}
+
+.control {
+    background-color: #000000;
+    color: white;
+    border-radius: 5%;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    margin: 2rem;
+}
+
+.active {
+    background-color: rgb(34, 34, 34);
+}
