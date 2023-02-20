@@ -39,9 +39,9 @@ body {
 .color {
     border-radius: 15%;
     border-width: 0.5rem;
-    width: 8rem;
-    height: 8rem;
-    margin: 1rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
     flex: 0 0 auto;
 }
 
